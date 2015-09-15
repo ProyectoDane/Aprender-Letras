@@ -1,0 +1,82 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="dane.com.gyl.dane.ElegirJuegoActivity"
+    android:background="#F3E624">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.33">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/boton_conciencia_fonologica"
+                android:background="#F3E624"
+                android:src="@drawable/boton_conciencia_fonologica"
+                android:layout_marginTop="1dp"
+                android:layout_weight="0.33"
+                android:layout_gravity="bottom|center_horizontal"
+                android:scaleType="fitCenter" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.33">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/boton_percepcion_visual"
+                android:background="#F3E624"
+                android:src="@drawable/boton_percepcion_visual"
+                android:layout_marginTop="1dp"
+                android:layout_weight="0.5"
+                android:layout_gravity="center"
+                android:scaleType="fitCenter" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.33"
+            android:layout_gravity="top">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/boton_grafomotricidad"
+                android:background="#F3E624"
+                android:src="@drawable/boton_grafomotricidad"
+                android:layout_marginTop="1dp"
+                android:layout_weight="0.5"
+                android:layout_gravity="top|center_horizontal"
+                android:scaleType="fitCenter" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</RelativeLayout>

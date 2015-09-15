@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context="dane.com.gyl.dane.MenuActivity">
+    <item android:id="@+id/help"
+        android:title="@string/texto_ayuda"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item android:id="@+id/exit_app"
+        android:title="@string/title_exit_app"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+</menu>

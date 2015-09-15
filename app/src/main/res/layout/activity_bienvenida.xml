@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".BienvenidaActivity"
+    android:background="#fffa8f2b"
+    android:id="@+id/fondo_bienvenida"
+    android:clickable="true">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bienvenida_texto"
+        android:src="@drawable/bienvenida_texto"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="55dp"
+        android:scaleType="fitCenter" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bienvenida_punto_amarillo"
+        android:src="@drawable/bienvenida_punto_amarillo"
+        android:layout_alignBottom="@+id/bienvenida_texto"
+        android:layout_alignRight="@+id/bienvenida_texto"
+        android:layout_alignEnd="@+id/bienvenida_texto"
+        android:layout_marginRight="42dp"
+        android:layout_marginEnd="55dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bienvenida_logo"
+        android:src="@drawable/bienvenida_logo"
+        android:layout_below="@+id/bienvenida_texto"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="51dp"
+        android:scaleType="fitCenter" />
+
+</RelativeLayout>
